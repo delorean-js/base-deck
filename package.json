@@ -1,7 +1,7 @@
 {
   "name": "delorean-deck",
-  "version": "0.1.0",
-  "description": "Common base for a deck project with Bespoke",
+  "version": "0.0.1",
+  "description": "Base for a deck project with Bespoke",
   "author": "jupl",
   "homepage": "https://github.com/deloren-js/base-deck",
   "repository": {
