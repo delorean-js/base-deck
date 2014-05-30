@@ -1,0 +1,10 @@
+{
+  "description": "Presentation slide in Markdown format",
+  "files": [
+    {
+      "from": "slide.md",
+      "to": "slides/{{dasherize name}}.md"
+    }
+  ],
+  "dependencies": []
+}

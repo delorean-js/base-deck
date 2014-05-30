@@ -1,5 +1,5 @@
 {
-  "description": "project",
+  "description": "Presentation deck",
   "files": [
     {
       "from": "template/Jakefile",
@@ -20,6 +20,14 @@
     {
       "from": "template/deck.js",
       "to": "src/{{dasherize name true}}/deck.js"
+    },
+    {
+      "from": "template/slides/intro.md",
+      "to": "src/{{dasherize name true}}/slides/intro.md"
+    },
+    {
+      "from": "template/slides/title.md",
+      "to": "src/{{dasherize name true}}/slides/title.md"
     }
   ]
 }
