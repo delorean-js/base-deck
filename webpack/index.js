@@ -2,6 +2,7 @@
 
 var fs = require('fs');
 var path = require('path');
+var mdloader = path.join(__dirname, 'md-loader');
 
 module.exports = function(opts) {
   var paths = {
@@ -28,9 +29,10 @@ module.exports = function(opts) {
     },
     module: {
       loaders: [
-        {test: /\.(?:eot|svg|ttf|woff)$/, loader: 'url'},
+        {test: /\.(?:eot|gif|jpg|jpeg|png|svg|ttf|woff)$/, loader: 'url'},
+        {test: /\.md$/, loaders: ['html', mdloader]},
         {test: /\.css$/, loader: 'style!css!autoprefixer'},
-        {test: /\.less$/, loader: 'style!css!autoprefixer!less'},
+        {test: /\.less$/, loader: 'style!css!autoprefixer!less'}
       ]
     }
   };
