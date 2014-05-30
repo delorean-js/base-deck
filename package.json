@@ -1,0 +1,24 @@
+{
+  "name": "delorean-deck",
+  "version": "0.1.0",
+  "description": "Common base for a deck project with Bespoke",
+  "author": "jupl",
+  "homepage": "https://github.com/deloren-js/base-deck",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:delorean-js/base-deck.git"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "autoprefixer-loader": "^0.1.1",
+    "css-loader": "^0.6.12",
+    "file-loader": "^0.5.1",
+    "less-loader": "^0.7.4",
+    "style-loader": "^0.6.3",
+    "url-loader": "^0.5.5",
+    "bluebird": "^1.2.4",
+    "scaffolt": "^0.5.0",
+    "sugar": "^1.4.1",
+    "webpack": "^1.2.0"
+  }
+}

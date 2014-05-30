@@ -1,0 +1,5 @@
+// Load Delorean tasks
+require('delorean-deck').tasks({
+  basePath: require('path').join(__dirname, '../..'),
+  isProject: true
+});
