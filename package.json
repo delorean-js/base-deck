@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Base for a deck project with Bespoke",
   "author": "jupl",
-  "homepage": "https://github.com/deloren-js/base-deck",
+  "homepage": "https://github.com/delorean-js/base-deck",
   "repository": {
     "type": "git",
     "url": "git@github.com:delorean-js/base-deck.git"
